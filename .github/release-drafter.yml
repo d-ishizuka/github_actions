@@ -15,8 +15,10 @@ categories:
       - 'chore'
       - 'internal'
 change-title-escapes: '\<*_&'
-exclude-labels:
-  - '*'
+include-labels:
+  - 'feature'
+  - 'bug'
+  - 'chore'
 template: |
    ## Changes
 
