@@ -1,0 +1,23 @@
+name-template: 'Unreleased'
+tag-template: 'Unreleased'
+categories:
+  - title: '🚀 新機能'
+    labels:
+      - 'feature'
+      - 'enhancement'
+  - title: '🐛 修正'
+    labels:
+      - 'fix'
+      - 'bugfix'
+      - 'bug'
+  - title: '🧰 内部的な変更(専門的な内容も含みます)'
+    labels:
+      - 'chore'
+      - 'internal'
+change-title-escapes: '\<*_&'
+exclude-labels:
+  - 'exclude from changelog'
+template: |
+   ## Changes
+
+   $CHANGES
